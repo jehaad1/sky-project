@@ -1,0 +1,39 @@
+body {
+    background: #000;
+}
+
+#Logo {
+    width: 18em;
+}
+
+#Button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.6rem;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+    color: #FFFBCE;
+    background: #3B3B77;
+    transition: all 200ms;
+}
+
+#Button:hover {
+    background: #2f2f7c;
+}
+
+#Title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #FFFBCE;
+}
+
+#Link {
+    color: #FFFBCE;
+}
+
+.Center {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
