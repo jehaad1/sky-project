@@ -1,9 +1,10 @@
 body {
-    background: #000;
+    background: #2b2b41;
+    overflow: hidden;
 }
 
 #Logo {
-    width: 18em;
+    width: 22em;
 }
 
 #Button {
@@ -13,13 +14,14 @@ body {
     border-radius: 5px;
     border: none;
     margin-top: 10px;
+    padding: 8px 16px;
     color: #FFFBCE;
-    background: #3B3B77;
+    background: #7575d9;
     transition: all 200ms;
 }
 
 #Button:hover {
-    background: #2f2f7c;
+    background: #5757da;
 }
 
 #Title {
@@ -36,4 +38,8 @@ body {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
+}
+
+.Meteor {
+    position: absolute;
 }
