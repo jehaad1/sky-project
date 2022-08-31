@@ -1,6 +1,6 @@
 const Express = require("express");
 const Path = require("path")
-const Open = require("opn");
+const Open = require("open");
 const App = Express();
 const Port = 5000;
 
